@@ -51,3 +51,19 @@ body {
     display: none;
 }
 
+/* add android bits */
+#header h1 a {
+    text-shadow: 0px 1px 1px #fff;
+    background-image: -webkit-gradient(linear, left top, left bottom,
+                                        from(#ccc), to(#999));
+}
+
+#header ul li:first-child a {
+    -webkit-border-top-left-radius: 8px;
+    -webkit-border-top-right-radius: 8px;
+}
+#header ul li:last-child a {
+    -webkit-border-bottom-left-radius: 8px;
+    -webkit-border-bottom-right-radius: 8px;
+}
+
